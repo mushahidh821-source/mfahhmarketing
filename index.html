@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>THE M.F.A.H.H MARKETING | One Call – Complete Business Solutions</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f5f8f7;--surface:#fff;--ink:#12242b;--mute:#52656c;--brand:#0e3b43;--on-brand:#f5f8f7;--accent:#f2a900;--line:#d5e0dd;
+--hf:'Sora','Segoe UI',Arial,sans-serif;--bf:'Public Sans','Segoe UI',Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1a1e;--surface:#12272d;--ink:#e7f0ee;--mute:#9db3b8;--brand:#0a2e35;--on-brand:#e7f0ee;--line:#244047}}
+:root[data-theme="dark"]{--bg:#0b1a1e;--surface:#12272d;--ink:#e7f0ee;--mute:#9db3b8;--brand:#0a2e35;--on-brand:#e7f0ee;--line:#244047}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--bf);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--hf);line-height:1.1;margin:0;letter-spacing:-.02em}
+a{color:inherit}
+.wrap{max-width:1120px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+h2{font-size:clamp(1.7rem,4vw,2.5rem);max-width:20ch}
+.lead{color:var(--mute);max-width:60ch;margin:14px 0 0}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.btn{display:inline-block;padding:13px 22px;border-radius:8px;font-weight:600;text-decoration:none;border:2px solid transparent;cursor:pointer;font:600 1rem var(--bf)}
+.btn.p{background:var(--accent);color:#12242b}
+.btn.g{border-color:currentColor;background:transparent}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{font:800 1.05rem var(--hf);text-decoration:none;letter-spacing:.02em}
+.logo b{color:var(--accent)}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-size:.93rem}
+nav a{text-decoration:none;color:var(--mute)}nav a:hover{color:var(--ink)}
+.hero{background:var(--brand);color:var(--on-brand);padding:80px 0 72px}
+.hero .wrap{display:grid;grid-template-columns:1.25fr 1fr;gap:48px;align-items:center}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem);font-weight:800}
+.hero h1 span{display:block;color:var(--accent)}
+.hero p{max-width:52ch;opacity:.88;margin:22px 0 28px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.dial{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:16px;padding:28px}
+.dial small{opacity:.75}
+.dial a.num{display:block;font:800 clamp(1.7rem,4vw,2.3rem) var(--hf);text-decoration:none;margin:4px 0 18px}
+.dial ul{margin:0;padding:0;list-style:none;display:grid;gap:10px;font-size:.95rem}
+.dial li::before{content:"";display:inline-block;width:8px;height:8px;background:var(--accent);border-radius:50%;margin-right:10px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:28px 0}
+.tab{padding:8px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);color:var(--ink);cursor:pointer;font:500 .9rem var(--bf)}
+.tab[aria-pressed="true"]{background:var(--brand);color:var(--on-brand);border-color:var(--brand)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:22px;display:flex;flex-direction:column}
+.card[hidden]{display:none}
+.card h3{font-size:1.1rem;margin-bottom:8px}
+.card p{margin:0 0 12px;color:var(--mute);font-size:.94rem}
+.card ul{margin:0 0 18px;padding-left:18px;font-size:.9rem;flex:1}
+.card li{margin-bottom:5px}
+.card a.wa{font-weight:600;color:var(--brand);text-decoration:none;border-bottom:2px solid var(--accent);align-self:flex-start}
+:root[data-theme="dark"] .card a.wa{color:var(--accent)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .card a.wa{color:var(--accent)}}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:start}
+.plat{display:grid;gap:12px;margin-top:24px}
+.plat div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.plat span{color:var(--mute);font-size:.9rem}
+.checks{list-style:none;padding:0;margin:20px 0 26px;display:grid;gap:10px}
+.checks li{padding-left:28px;position:relative}
+.checks li::before{content:"✓";position:absolute;left:0;color:var(--brand);font-weight:800}
+:root[data-theme="dark"] .checks li::before{color:var(--accent)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .checks li::before{color:var(--accent)}}
+.alt{background:var(--surface);border-block:1px solid var(--line)}
+.why{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px;margin-top:32px}
+.why div{border-top:4px solid var(--accent);padding-top:14px}
+.why h3{font-size:1.1rem;margin-bottom:6px}
+.why p{margin:0;color:var(--mute);font-size:.94rem}
+form{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:26px;display:grid;gap:14px}
+label{display:grid;gap:5px;font-weight:600;font-size:.9rem}
+input,select,textarea{font:400 1rem var(--bf);padding:11px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);width:100%}
+.contact-list{display:grid;gap:16px;margin-top:26px}
+.contact-list a{font:700 1.15rem var(--hf);text-decoration:none}
+.contact-list small{display:block;color:var(--mute);font:400 .85rem var(--bf)}
+footer{background:var(--brand);color:var(--on-brand);padding:36px 0;font-size:.9rem}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
+footer p{margin:0;opacity:.8}
+@media (max-width:820px){.hero .wrap,.split{grid-template-columns:1fr}nav ul{display:none}section{padding:52px 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="logo" href="#top">THE M.F.A.H.H <b>Marketing</b></a>
+<nav aria-label="Main"><ul><li><a href="#services">Services</a></li><li><a href="#register">Registration</a></li><li><a href="#supplies">Amenities</a></li><li><a href="#media">Media</a></li><li><a href="#contact">Contact</a></li></ul></nav>
+<a class="btn p" href="#contact" style="padding:9px 16px">Get a free quote</a>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<div>
+<h1>One call.<span>Complete business solutions.</span></h1>
+<p>Facility management, hospitality staffing, engineering maintenance, wholesale supplies and hotel listings, all handled by one accountable team with one invoice.</p>
+<div class="cta"><a class="btn p" href="#contact">Get a free quote</a><a class="btn g" href="https://wa.me/923481000941" target="_blank" rel="noopener">Chat on WhatsApp</a></div>
+</div>
+<div class="dial">
+<small>Dispatch desk, open 24/7</small>
+<a class="num" href="tel:03707111049">0370-7111049</a>
+<ul><li>10+ service divisions</li><li>Police-verified, trained staff</li><li>Dedicated account manager</li><li>Nationwide dispatch</li></ul>
+</div>
+</div></div>
+
+<section id="services"><div class="wrap">
+<h2>Ten divisions, one point of contact</h2>
+<p class="lead">Pick a category or browse everything. Each service can be booked directly on WhatsApp.</p>
+<div class="tabs" role="group" aria-label="Filter services">
+<button class="tab" aria-pressed="true" data-f="all">All</button>
+<button class="tab" aria-pressed="false" data-f="clean">Cleaning &amp; facilities</button>
+<button class="tab" aria-pressed="false" data-f="staff">Hospitality &amp; staffing</button>
+<button class="tab" aria-pressed="false" data-f="eng">Engineering</button>
+<button class="tab" aria-pressed="false" data-f="media">Media &amp; decor</button>
+<button class="tab" aria-pressed="false" data-f="ota">Registration</button>
+</div>
+<div class="grid" id="cards"></div>
+</div></section>
+
+<section id="register" class="alt"><div class="wrap split">
+<div>
+<h2>Get your property live on Agoda, Booking.com and Airbnb</h2>
+<p class="lead">We handle onboarding, verification, photography setup and rate strategy so your property starts taking bookings sooner.</p>
+<div class="plat"><div><b>Agoda</b><span>YCS setup, flash deals, VIP partner guidance</span></div><div><b>Booking.com</b><span>Listing, room mapping, rate parity</span></div><div><b>Airbnb</b><span>Profile, pricing and minimum-stay rules</span></div></div>
+</div>
+<div>
+<ul class="checks">
+<li>Compliance, bank verification and geotagging done for you</li>
+<li>Listing copy, photo tagging and room mapping</li>
+<li>Seasonal rates, cancellation policies and review collection</li>
+<li>Front-desk staff training on check-in and voucher validation</li>
+<li>Weekly revenue and conversion audits</li>
+</ul>
+<a class="btn p" href="https://wa.me/923481000941?text=I%20want%20property%20onboarding%20on%20Agoda%2FBooking.com%2FAirbnb" target="_blank" rel="noopener">Book an onboarding consultation</a>
+</div>
+</div></section>
+
+<section id="supplies"><div class="wrap split">
+<div>
+<h2>Hotel amenities, chemicals and housekeeping equipment at wholesale</h2>
+<p class="lead">Supply for hotels, guesthouses, hospitals and corporate facilities, from guest toiletries to floor polishing machines.</p>
+</div>
+<div>
+<ul class="checks">
+<li>Custom-bottled shampoo, shower gel and lotions with your logo</li>
+<li>Single-use kits: dental, shaving, combs, shower caps</li>
+<li>Microfiber bath towels, pool towels and linen sets</li>
+<li>Cleaning chemicals with safety data sheets provided</li>
+<li>Pallet dispatch to your door, nationwide</li>
+</ul>
+<div class="cta"><a class="btn p" href="https://wa.me/923481000941?text=Please%20send%20the%20wholesale%20rate%20card" target="_blank" rel="noopener">Request the rate card</a><a class="btn g" href="https://wa.me/923481000941?text=I%20would%20like%20a%20sample%20batch" target="_blank" rel="noopener">Order a sample batch</a></div>
+</div>
+</div></section>
+
+<section id="media" class="alt"><div class="wrap split">
+<div>
+<h2>Drone, camera and event production</h2>
+<p class="lead">Licensed pilots capture 4K and 6K aerial footage, architectural stills and corporate documentaries. Our decor crew builds stages, lighting and floral installations for banquets and galas.</p>
+</div>
+<div>
+<ul class="checks">
+<li>Aerial videography and site mapping</li>
+<li>Hotel suite and interior photography</li>
+<li>Leadership interviews and brand coverage</li>
+<li>Stage design, LED lighting and floral walls</li>
+</ul>
+<a class="btn p" href="https://wa.me/923481000941?text=I%20want%20to%20book%20a%20media%20or%20drone%20crew" target="_blank" rel="noopener">Book a media crew</a>
+</div>
+</div></section>
+
+<section id="why"><div class="wrap">
+<h2>Why businesses stay with us</h2>
+<div class="why">
+<div><h3>24/7 support</h3><p>Our dispatch desk answers around the clock, from a 2 AM HVAC failure to a VIP turnover.</p></div>
+<div><h3>One-stop solutions</h3><p>Chemicals, linen, electricians and OTA listings through a single contact and a single invoice.</p></div>
+<div><h3>Trained professionals</h3><p>Staff pass NADRA and biometric checks, medical checkups and hospitality SOP training.</p></div>
+<div><h3>Cost-effective</h3><p>Consolidated billing and bulk wholesale pricing reduce your monthly overhead.</p></div>
+</div>
+</div></section>
+
+<section id="contact" class="alt"><div class="wrap split">
+<div>
+<h2>Tell us what you need</h2>
+<p class="lead">Send a request and it opens in WhatsApp, already filled in. Or reach us directly.</p>
+<div class="contact-list">
+<div><a href="tel:03707111049">0370-7111049</a><small>Dispatch line 1</small></div>
+<div><a href="tel:03481000941">0348-1000941</a><small>Dispatch line 2 and WhatsApp</small></div>
+<div><a href="mailto:info@mfahhmarketing.com">info@mfahhmarketing.com</a><small>Proposals, contracts and RFPs</small></div>
+</div>
+</div>
+<form id="f">
+<label>Full name *<input name="n" required autocomplete="name"></label>
+<label>Phone / WhatsApp *<input name="p" required inputmode="tel" placeholder="0348-1000941" autocomplete="tel"></label>
+<label>Email<input name="e" type="email" autocomplete="email"></label>
+<label>Service needed *<select name="s" id="sel" required><option value="">Select a service</option></select></label>
+<label>Details<textarea name="m" rows="3" placeholder="Location, requirements, timing"></textarea></label>
+<button class="btn p" type="submit">Send request on WhatsApp</button>
+</form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+<div><b style="font-family:var(--hf)">THE M.F.A.H.H Marketing</b><p>One call, complete business solutions.</p></div>
+<p>0370-7111049 · 0348-1000941 · info@mfahhmarketing.com</p>
+<p>© 2026 THE M.F.A.H.H MARKETING. Nationwide support, 24/7.</p>
+</div></footer>
+
+<script>
+const S=[
+["clean","Cleaning solutions","Commercial and residential deep cleaning and janitorial services.",["Post-construction deep scrubbing","Marble honing and polishing","High-rise glass façade cleaning"]],
+["clean","Pest control","Certified pest management and disinfestation.",["Pre- and post-construction termite proofing","Odorless gel for restaurant kitchens","Thermal fogging for mosquitoes"]],
+["staff","Private housekeeping and hospitality staff","Vetted, trained staff for residences, villas and suites.",["Executive butler and valet","5-star trained room attendants","Villa housekeeping stewards"]],
+["clean","Laundry services","Commercial linen, laundry and textile management.",["Bulk sheets, duvets and towels","Gentle enzymatic stain removal","Uniform dry cleaning and pressing"]],
+["media","Media, camera and drone shoots","Photography, videography and aerial coverage.",["4K/6K drone videography","Hotel and interior photography","Corporate documentaries"]],
+["media","Event decoration and interior design","Stage, lighting, florals and venue styling.",["Custom stage and podium builds","LED mood lighting and truss","Fresh floral walls and centerpieces"]],
+["eng","Engineering department","Maintenance, electrical, plumbing and structural support.",["HVAC chiller, duct and VRF servicing","Commercial electrical panels and wiring","Booster pumps, plumbing, filtration"]],
+["staff","Manpower supply","Skilled and semi-skilled staff for industry and hospitality.",["Stewards, kitchen hands, front desk","Warehouse loaders and forklift operators","Certified electricians, plumbers, HVAC techs"]],
+["ota","Registration services","Listing and account management for Agoda, Booking.com and Airbnb.",["Official property onboarding","Listing copy and room mapping","Seasonal rate strategy"]],
+["clean","Hotel amenities and chemicals","Wholesale toiletries, guest amenities, equipment and cleaning agents.",["Custom-bottled toiletries","Single-use amenity kits","Towels and linen sets"]]
+];
+const cards=document.getElementById('cards'),sel=document.getElementById('sel');
+S.forEach(([c,t,d,l])=>{
+ const a=document.createElement('article');a.className='card';a.dataset.c=c;
+ a.innerHTML=`<h3>${t}</h3><p>${d}</p><ul>${l.map(x=>`<li>${x}</li>`).join('')}</ul><a class="wa" target="_blank" rel="noopener" href="https://wa.me/923481000941?text=${encodeURIComponent('I want to book: '+t)}">Book on WhatsApp</a>`;
+ cards.appendChild(a);
+ sel.add(new Option(t,t));
+});
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+ document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-pressed',x===b));
+ cards.querySelectorAll('.card').forEach(c=>c.hidden=b.dataset.f!=='all'&&c.dataset.c!==b.dataset.f);
+});
+document.getElementById('f').onsubmit=e=>{
+ e.preventDefault();const d=new FormData(e.target);
+ const t=`New service request\nName: ${d.get('n')}\nPhone: ${d.get('p')}\nEmail: ${d.get('e')||'-'}\nService: ${d.get('s')}\nDetails: ${d.get('m')||'-'}`;
+ window.open('https://wa.me/923481000941?text='+encodeURIComponent(t),'_blank');
+};
+</script>
+</body>
+</html>
